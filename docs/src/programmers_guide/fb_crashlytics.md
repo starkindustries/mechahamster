@@ -23,11 +23,12 @@ like logging a message, capturing the user's id (if logged in), and
 adding a custom key/value pair for context.
 
 The code for the SelfDestruct functionality lives largely in:
-    * the MeltdownMenu
+
+* the MeltdownMenu
 (`Assets/Hamster/Scripts/States/MeltdownMenu.cs`)
-    * the SelfDestructMenu
+* the SelfDestructMenu
 (`Assets/Hamster/Scripts/States/SelfDestructMenu.cs`)
-    * the PseudoRandomExceptionChooser
+* the PseudoRandomExceptionChooser
 (`Assets/Hamster/Scripts/States/Exceptions/PseudoRandomExceptionChooser.cs`).
 
 To learn more about all of the available Crashlytics APIs check out the [Firebase Crashlytics API][]
